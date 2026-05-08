@@ -1,0 +1,12 @@
+include .env.example
+include requirements.txt
+include README.md
+recursive-include strategies *.py
+recursive-include agents *.py
+recursive-include core *.py
+recursive-include utils *.py
+recursive-include orchestrator *.py
+exclude .env
+exclude *.log
+exclude *.db
+exclude *.sqlite3

@@ -1,0 +1,3 @@
+Put your screenshots here:
+  terminal_penguins.png   — terminal startup screenshot (colorful ASCII penguins)
+  telegram_menu.png       — Telegram main menu screenshot

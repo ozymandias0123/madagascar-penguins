@@ -1,0 +1,31 @@
+# ── Core trading dependencies ─────────────────────────────────
+MetaTrader5>=5.0.45
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+imbalanced-learn>=0.11.0
+xgboost>=2.0.0
+TA-Lib>=0.4.28
+pytz>=2024.1
+python-dotenv>=1.0.0
+requests>=2.31.0
+pickle5>=0.0.12; python_version < "3.8"
+
+# ── Multi-Exchange support ────────────────────────────────────
+# Covers: Binance, Bybit, OKX, Kraken, KuCoin, Gate.io, Bitget, MEXC
+# and 100+ more exchanges via a single unified API
+ccxt>=4.3.0
+
+# ── LangGraph orchestrator ────────────────────────────────────
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# ── LLM provider SDKs ─────────────────────────────────────────
+anthropic>=0.40.0          # Kowalski (Claude)
+openai>=1.50.0             # Skipper (GPT-4o) + Rico (DeepSeek)
+google-generativeai>=0.8.0 # GeminiNewsAnalyst
+
+# ── Free news sources ─────────────────────────────────────────
+feedparser>=6.0.10         # RSS feeds (Reuters, CNBC, MarketWatch, Yahoo)
+beautifulsoup4>=4.12.0     # ForexFactory calendar scrape
+yfinance>=0.2.36           # Yahoo Finance headlines (no key needed)

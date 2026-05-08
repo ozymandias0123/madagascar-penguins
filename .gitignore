@@ -1,0 +1,33 @@
+# Temp / scan files
+_geo_scan.txt
+*.scan.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.*
+
+# Logs and runtime files
+*.log
+persistent_ict_trading_log.txt
+*.sqlite3
+*.db
+
+# MetaTrader and data files
+*.csv
+*.pkl
+*.h5
+*.npy
+*.npz
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
